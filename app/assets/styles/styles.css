@@ -1,0 +1,16 @@
+@import "normalize.css";
+@import "animate.css";
+@import "modules/_particles"; 
+@import "base/_global";
+@import "base/_mixins";
+@import "modules/_header"; 
+@import "modules/_about";
+@import "modules/_Projects";
+@import "modules/_wrapper";
+@import "modules/_page-section";
+@import "modules/_contact";
+@import "modules/_modal";
+
+
+
+

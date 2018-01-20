@@ -1,0 +1,88 @@
+.header{
+	padding-top: 88px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	text-align: center;
+	margin: 0 auto;
+	transform: translate(-50%, -50%);
+	overflow: hidden;
+	display: block;
+
+	
+
+
+
+&-title {
+	font-size: 1.1rem;
+	color: #1F1F1F;
+	font-weight: 800;
+
+	@mixin atSmall {
+		font-size: 4.8rem;
+	}
+
+}
+
+&-subtitle{
+	font-size: 1.5rem;
+	color: #1F1F1F; 
+	padding-top: 10px;
+	font-weight: 900;
+	
+	@mixin atSmall {
+		font-size: 2.6rem;
+	}
+	
+}
+	&__social-links{
+		color: #333333;
+		font-size: 2rem;
+		display: inline-block;
+		margin: .9rem;
+		position: relative;
+		cursor: pointer;
+		text-decoration: none;
+		text-align: center;
+		
+		&:hover{
+			color:#fff;
+		}
+		
+		
+	}
+	
+	&__arrow{
+		color: #333333;
+		font-size: 1.5rem;
+		height: 100px;
+		display: inline-block;
+		padding: 3rem;
+		
+		animation: pulse 1.2s infinite;
+		
+		&: hover{
+			cursor: pointer; 
+			color: #fff;
+		}
+	}  
+	
+	}
+
+
+	.description-link{
+		font-size: 1.2rem;
+		color: #1F1F1F;
+		margin: 10px;
+		cursor: pointer;
+		font-weight: bold;
+		
+		&:hover{
+			color:#fff;
+		}
+		
+			@mixin atSmall {
+		font-size: 1.9rem;
+	}
+		
+	}

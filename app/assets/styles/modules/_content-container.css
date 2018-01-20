@@ -1,0 +1,15 @@
+.content-container{
+	p{
+		line-height: 1.5;
+		font-weight: 100;
+		color: #333;
+		margin: 0 0 1.8rem 0;
+		@mixin atSmall{
+			font-size: 1.2rem;
+		}
+		
+	}
+	p a{
+		font-weight: 600;
+	}
+}
